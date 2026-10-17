@@ -1,0 +1,15 @@
+Level,Targets,Test,Pass
+1. First light,"[0, 1]",D-site: T site indices map to data-data CZ,True
+1. First light,"[0, 1]",D-strip: stripped Clifford equals payload,True
+1. First light,"[0, 1]",Syndrome supports are Z-only,True
+1. First light,"[0, 1]",A: noiseless acceptance invariant over T counts,True
+1. First light,"[0, 1]",B: accepted data distribution matches unchecked,False
+1. First light,"[0, 1]",C: library filter matches exact projector,True
+1. First light,"[0, 1]",E: conservative fidelity bound holds for all T counts,True
+1. First light,"[2, 1]",D-site: T site indices map to data-data CZ,True
+1. First light,"[2, 1]",D-strip: stripped Clifford equals payload,True
+1. First light,"[2, 1]",Syndrome supports are Z-only,True
+1. First light,"[2, 1]",A: noiseless acceptance invariant over T counts,True
+1. First light,"[2, 1]",B: accepted data distribution matches unchecked,False
+1. First light,"[2, 1]",C: library filter matches exact projector,True
+1. First light,"[2, 1]",E: conservative fidelity bound holds for all T counts,True

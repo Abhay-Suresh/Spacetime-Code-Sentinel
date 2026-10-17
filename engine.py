@@ -639,7 +639,7 @@ class LevelSession:
 
         p1, F1 = exact_post(nm, supports, signs, self.gn, noisy=True)
         PH, PHse, _, PHupper = mc_harmless(nm, supports, self.gn, MC_SAMPLES, self.s["t"])
-        out = dict(qc=qc, payload=payload, k=k, supports=supports, signs=signs, supports_ok=ok,
+        out = dict(qc=qc, cc=cc, payload=payload, k=k, supports=supports, signs=signs, supports_ok=ok,
                    site_pairs=site_pairs, sites=raw_sites, payload_sites=raw_sites,
                    p1=p1, F1=F1, PH=PH, PHse=PHse, PHupper=PHupper)
         self._tprep[key] = out
