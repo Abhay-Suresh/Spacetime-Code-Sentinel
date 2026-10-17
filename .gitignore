@@ -46,4 +46,4 @@ t_bound_runs_seed*.csv
 t_doping_comparison_seed*.csv
 
 # Folders
-analysis_results/
+# analysis_results/
